@@ -11,7 +11,7 @@ As informações são fictícias, mas reproduzem parte dos dados encontrados no 
 - `recruitment_data.csv` : Informações sobre os candidatos em **recrutamento** e o status do processo seletivo em que estão.
 - `training_and_development_data.csv` : Oferece uma visão das ações de **treinamento e desenvolvimento** da empresa, resultado e custo por colaborador.
 
-Com base nesses dados, o projeto terá como entregável um *dashboard em Power BI* que explora três frentes principais: ativos, desligados e produtos de RH.
+Com base nesses dados, o projeto terá como entregável um [dashboard em Power BI](https://app.powerbi.com/view?r=eyJrIjoiZDk2ZDI2MTItM2EzMy00ODNhLTlkZTctMDNjYmU4MmVjNGM2IiwidCI6IjhlZWNhNDA0LWE0N2QtNDU1NS1hMmQ0LTBmMzYxOTA0MWM5YyJ9) que explora três frentes principais: ativos, desligados e produtos de RH.
 
 ## 2. Principais Insights
 
@@ -70,6 +70,8 @@ Na sequência, parti para a **modelagem star** dos dados, dividindo-os entre: fa
 </p>
 
 ## 4. Resultado
+
+[Navegue pelo Dashboard aqui.](https://app.powerbi.com/view?r=eyJrIjoiZDk2ZDI2MTItM2EzMy00ODNhLTlkZTctMDNjYmU4MmVjNGM2IiwidCI6IjhlZWNhNDA0LWE0N2QtNDU1NS1hMmQ0LTBmMzYxOTA0MWM5YyJ9)
 
 ### 4.1 Ativos
 <p align="center">

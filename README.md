@@ -33,11 +33,11 @@ Com base nesses dados, o projeto terá como entregável um *dashboard em Power B
 2. O 3º trimestre (Q3) foi o de menor investimento em treinamento, tanto em 2022 quanto em 2023.
 3. **22,3% dos treinamentos realizados falharam, gerando um custo de R$ 16 milhões no período de 2022 e 2023.**
 
-## 3. Desolvimento
+## 3. Desenvolvimento
 
 ### 3.1 Análise Exploratória
 
-Para a análise exploratória dos dados disponíveis, dediquei tempo em investigar como cada coluna disponível nos arquivos se conectava (ou não) com as frentes investigadas nesse projeto. O método para isso, foi importar as bases para o *Google Sheets* e utilizar tabelas dinâmicas para entender a distruibuição e características dos dados. 
+Para a análise exploratória dos dados disponíveis, dediquei tempo em investigar como cada coluna disponível nos arquivos se conectava (ou não) com as frentes investigadas nesse projeto. O método para isso, foi importar as bases para o *Google Sheets* e utilizar tabelas dinâmicas para entender a distribuição e características dos dados. 
 
 Durante essa tarefa, anotei as hipóteses e indicadores que surgiam, como por exemplo:
 
@@ -55,7 +55,7 @@ Além disso, **adicionei novas colunas** para aprofundarmos a análise:
 
 - Generation (Geração): Calcula a geração com base na data de nascimento
 - Tenure (Tempo de Casa): Calcula o tempo de casa em anos. Para os desligados, considera-se o tempo que permaneceu na empresa e para os ativos, os anos decorridos desde a data de admissão até a data de extração do snapshot.
-- DateSnapshot: Data de referência do snapshot, visto que ele é uma “fotografia” de um momento especifico do quadro de ativos.
+- DateSnapshot: Data de referência do snapshot, visto que representa uma "fotografia" de um momento específico.
 
 Na sequência, parti para a **modelagem star** dos dados, dividindo-os entre: fato, dimensão e snapshot:
 

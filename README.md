@@ -60,5 +60,30 @@ Além disso, **adicionei novas colunas** para aprofundarmos a análise:
 Na sequência, parti para a **modelagem star** dos dados, dividindo-os entre: fato, dimensão e snapshot:
 
 - Fato: `fTreinamento`, `fPesquisaClima` e `fRecrutamento` são os dados dos produtos de RH
-- Dimensão: **`dCalendário` para análises temporais robustas e `dFuncionário` com informações como - gênero, geração e cargo.
+- Dimensão: `dCalendário` para análises temporais robustas e `dFuncionário` com informações como - gênero, geração e cargo.
 - Snapshot: `sHeadcount` com o registro de entradas e saídas de funcionários em determinado período.
+
+<p align="center">
+  <img src="modelagem.png" alt="Modelagem" width="600"/>
+  <br>
+  <em>Os relacionamentos entre a <code>dCalendário</code> e as tabelas <code>fTreinamento</code>, <code>fPesquisaClima</code> e <code>sHeadcount</code> permanecem inativos para evitar ambiguidades no modelo, já que existem múltiplos caminhos possíveis passando pela <code>dFuncionário</code>. Quando necessário, esses relacionamentos podem ser ativados de forma controlada via DAX -<code>USERELATIONSHIP</code>.</em>
+</p>
+
+## 4. Resultado
+
+### 4.1 Ativos
+<p align="center">
+  <img src="Ativos.png" alt="Ativos" width="600"/>
+</p>
+
+## 4.2 Desligados
+
+<p align="center">
+  <img src="Desligados.png" alt="Desligados" width="600"/>
+</p>
+
+## 4.3 Produtos de RH
+
+<p align="center">
+  <img src="Produtos de RH.png" alt="Produtos de RH" width="600"/>
+</p>
